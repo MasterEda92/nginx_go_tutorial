@@ -1,0 +1,33 @@
+# Kompilierte Binaries
+hello-app
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Test-/Coverage-Ausgaben
+*.out
+coverage.*
+
+# Go-Workspace-Dateien
+go.work
+go.work.sum
+
+# Logs
+*.log
+
+# Abhängigkeiten (falls vendoring genutzt wird, Zeile entfernen)
+vendor/
+
+# Umgebungsvariablen / Secrets
+.env
+*.key
+*.pem
+
+# Editor / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
